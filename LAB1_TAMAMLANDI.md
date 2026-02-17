@@ -37,7 +37,7 @@ git init
 **App.tsx Güncellemeleri:**
 - Ad Soyad: MHD Hadi Said Alkaddour
 - Öğrenci No: 250541627
-- Bölüm: Bilgisayar Mühendisliği
+- Bölüm: Yazilim Mühendisliği
 - Hobiler: Yazılım geliştirme, kitap okuma, müzik dinleme
 - Kısa Tanıtım: Modern web teknolojileri öğrenmekten heyecan duyuyorum!
 

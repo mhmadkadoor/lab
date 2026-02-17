@@ -6,7 +6,7 @@ Bu proje, Web Tasarimi ve Programlama dersi LAB-1 kapsaminda Vite + React + Type
 ## Gelistirici
 - **Ad Soyad:** MHD Hadi Said Alkaddour
 - **Ogrenci No:** 250541627
-- **Bolum:** Bilgisayar Muhendisligi
+- **Bolum:** Yazilim Muhendisligi
 
 ## Kullanilan Teknolojiler
 - React 18
