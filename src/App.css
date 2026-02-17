@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  color: #646cff;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 2em;
+  color: #535bf2;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+  line-height: 1.6;
+}
+
+div {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
