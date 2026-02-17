@@ -30,18 +30,8 @@ git init
 - .DS_Store ✓
 - *.local ✓
 
-**Commit Geçmişi (6 commit):**
-1. `bc9d400` - chore: initial project setup with Vite + React + TS
-2. `668adde` - feat: add personal details to homepage
-3. `862c637` - feat: add department, hobbies, and personal introduction
-4. `95ce31e` - style: update page styling and layout
-5. `d39ce74` - docs: add comprehensive README with project details
-6. `058446f` - fix: update student information with correct details
 
-### ✅ 3. Branch Yönetimi
-**Oluşturulan Branch'lar:**
-- `main` - Stabil başlangıç kodu (initial commit)
-- `feature/personalize-ui` - UI kişiselleştirme çalışmaları (5 commit)
+
 
 **Branch Akışı:**
 ```
