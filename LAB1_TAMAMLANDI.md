@@ -33,17 +33,7 @@ git init
 
 
 
-**Branch Akışı:**
-```
-* 058446f (HEAD -> feature/personalize-ui) fix: update student information
-* d39ce74 docs: add comprehensive README with project details
-* 95ce31e style: update page styling and layout
-* 862c637 feat: add department, hobbies, and personal introduction
-* 668adde feat: add personal details to homepage
-* bc9d400 (main) chore: initial project setup with Vite + React + TS
-```
-
-### ✅ 4. UI Kişiselleştirmesi
+### ✅ 3. UI Kişiselleştirmesi
 **App.tsx Güncellemeleri:**
 - Ad Soyad: MHD Hadi Said Alkaddour
 - Öğrenci No: 250541627
@@ -57,7 +47,7 @@ git init
 - Renkli başlıklar ve gradient efektleri
 - Box shadow ve border radius kullanımı
 
-### ✅ 5. README Dokümantasyonu
+### ✅ 4. README Dokümantasyonu
 **README.md İçeriği:**
 - Proje hakkında bilgi ✓
 - Geliştirici bilgileri ✓
