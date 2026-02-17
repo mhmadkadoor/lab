@@ -210,6 +210,12 @@ git branch -a
 - Proje başarıyla çalışıyor ve kişiselleştirilmiş
 - GitHub push işlemi için remote repository ayarlanabilir (opsiyonel)
 
+## Ek Notlar
+
+- Proje, modern web geliştirme araçları ve metodolojileri kullanılarak başarıyla tamamlanmıştır.
+- GitHub repository bağlantısı: [https://github.com/mhmadkadoor/lab](https://github.com/mhmadkadoor/lab)
+- Proje, eğitim amaçlı olarak geliştirilmiştir ve gelecekteki projeler için bir temel oluşturabilir.
+
 ## Sonuç
 
 LAB-1 gereksinimleri başarıyla tamamlanmıştır. Proje modern web geliştirme standartlarına uygun olarak oluşturulmuş, Git ile profesyonel bir şekilde versiyon kontrolü yapılmış ve kapsamlı dokümantasyon hazırlanmıştır.
