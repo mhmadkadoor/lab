@@ -38,8 +38,6 @@ git init
 - Ad Soyad: MHD Hadi Said Alkaddour
 - Öğrenci No: 250541627
 - Bölüm: Yazilim Mühendisliği
-- Hobiler: Yazılım geliştirme, kitap okuma, müzik dinleme
-- Kısa Tanıtım: Modern web teknolojileri öğrenmekten heyecan duyuyorum!
 
 **CSS Güncellemeleri:**
 - Modern ve temiz tasarım

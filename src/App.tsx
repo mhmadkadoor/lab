@@ -8,8 +8,6 @@ function App() {
       <p>Ad Soyad: MHD Hadi Said Alkaddour</p>
       <p>Ogrenci No: 250541627</p>
       <p>Bolum: Yazilim Muhendisligi</p>
-      <p>Hobilerim: Yazilim gelistirme, kitap okuma, muzik dinleme</p>
-      <p>Kisa Tanitim: Modern web teknolojileri ogrenmekten heyecan duyuyorum!</p>
     </div>
   )
 }
