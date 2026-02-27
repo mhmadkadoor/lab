@@ -8,6 +8,12 @@ function App() {
       <p>Ad Soyad: MHD Hadi Said Alkaddour</p>
       <p>Ogrenci No: 250541627</p>
       <p>Bolum: Yazilim Muhendisligi</p>
+      <h3>Hobiler</h3>
+      <ul>
+        <li>Kodlama</li>
+        <li>Teknoloji</li>
+        <li>Spor</li>
+      </ul>
     </div>
   )
 }
