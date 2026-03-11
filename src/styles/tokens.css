@@ -1,46 +1,12 @@
-:root {
-  /* Color tokens */
+@theme {
   --color-primary: #0f766e;
   --color-secondary: #0ea5a4;
   --color-accent: #f59e0b;
-  --color-bg: #f7fafc;
-  --color-text: #1f2937;
-  --color-muted: #4b5563;
-  --color-surface: #ffffff;
-  --color-border: #d1d5db;
+  --color-surface: #f8fafc;
+  --color-muted: #64748b;
   --color-error: #dc2626;
   --color-success: #16a34a;
 
-  /* Spacing scale */
-  --space-xs: 0.25rem;
-  --space-sm: 0.5rem;
-  --space-md: 1rem;
-  --space-lg: 1.5rem;
-  --space-xl: 2rem;
-  --space-2xl: 3rem;
-  --space-3xl: 4rem;
-
-  /* Radius */
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --radius-lg: 16px;
-  --radius-full: 9999px;
-
-  /* Typography */
-  --font-sans: "Segoe UI", "Trebuchet MS", "Verdana", sans-serif;
-  --font-display: "Trebuchet MS", "Segoe UI", sans-serif;
-
-  --text-sm: clamp(0.875rem, 0.82rem + 0.25vw, 0.95rem);
-  --text-base: clamp(1rem, 0.94rem + 0.4vw, 1.125rem);
-  --text-lg: clamp(1.125rem, 1rem + 0.6vw, 1.35rem);
-  --text-xl: clamp(1.35rem, 1.15rem + 1vw, 1.8rem);
-  --text-2xl: clamp(1.65rem, 1.2rem + 1.8vw, 2.6rem);
-  --text-3xl: clamp(2rem, 1.35rem + 2.8vw, 3.6rem);
-
-  /* Shadow and motion */
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.08);
-  --shadow-md: 0 8px 18px rgba(15, 118, 110, 0.12);
-  --shadow-lg: 0 18px 35px rgba(15, 118, 110, 0.2);
-  --transition-fast: 150ms ease;
-  --transition-normal: 280ms ease;
+  --font-family-sans: 'Manrope', 'Segoe UI', sans-serif;
+  --font-family-display: 'Chakra Petch', 'Trebuchet MS', sans-serif;
 }

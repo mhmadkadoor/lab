@@ -5,10 +5,10 @@
 header {
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 20;
   display: flex;
-  flex-direction: column;
-  gap: var(--space-sm);
+  justify-content: space-between;
+  align-items: center;
   padding: var(--space-md) var(--space-lg);
   background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(8px);
@@ -22,18 +22,51 @@ header {
   color: var(--color-primary);
 }
 
+.nav-toggle {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  color: var(--color-text);
+  padding: var(--space-xs) var(--space-md);
+  font-size: var(--text-sm);
+  cursor: pointer;
+}
+
+.nav-toggle:focus-visible {
+  outline: 2px solid var(--color-secondary);
+  outline-offset: 2px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: min(78vw, 320px);
+  padding: 5.5rem var(--space-lg) var(--space-lg);
+  background: var(--color-surface);
+  border-left: 1px solid var(--color-border);
+  box-shadow: var(--shadow-lg);
+  transform: translateX(104%);
+  transition: transform var(--transition-normal);
+  z-index: 30;
+}
+
+nav.open {
+  transform: translateX(0);
+}
+
 nav ul {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   list-style: none;
   gap: var(--space-sm);
 }
 
 nav a {
   display: block;
-  width: 100%;
-  text-align: center;
+  text-align: left;
   padding: var(--space-xs) var(--space-md);
   border-radius: var(--radius-md);
   transition: background var(--transition-fast), color var(--transition-fast);
@@ -44,6 +77,21 @@ nav a:focus-visible {
   background: var(--color-primary);
   color: var(--color-bg);
   outline: none;
+}
+
+.nav-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.38);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-normal);
+  z-index: 25;
+}
+
+.nav-overlay.visible {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 main {
@@ -246,18 +294,33 @@ footer {
 }
 
 @media (min-width: 640px) {
-  header {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-overlay {
+    display: none;
+  }
+
+  nav {
+    position: static;
+    height: auto;
+    width: auto;
+    padding: 0;
+    border-left: none;
+    box-shadow: none;
+    transform: none;
+    background: transparent;
   }
 
   nav ul {
     flex-direction: row;
+    align-items: center;
   }
 
   nav a {
     width: auto;
+    text-align: center;
   }
 
   section {
